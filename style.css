@@ -248,12 +248,13 @@ header{
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
     margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 53px;
 }
 
 .contact_card:hover{
     background-color: #FF463A; 
-    border-radius: 5px;
-    padding: 15px 30px;
+    border-radius: 10px;
 
 }
 
