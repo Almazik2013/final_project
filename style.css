@@ -250,12 +250,29 @@ header{
     margin-bottom: 100px;
     padding-top: 30px;
     padding-bottom: 53px;
+    box-shadow: 0px 0px 17px 0px #00000040;
+    color: #FF463A;
+
+}
+
+.contact_card p{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
 }
 
 .contact_card:hover{
     background-color: #FF463A; 
     border-radius: 10px;
+    color: #FFFFFF;
+}
 
+.contact_card:hover p{
+    color: #FFFFFF;
 }
 
 .contact_title{
@@ -267,15 +284,6 @@ header{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 25px;
-}
-
-.contact_text{
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
 }
 
 .footer{
